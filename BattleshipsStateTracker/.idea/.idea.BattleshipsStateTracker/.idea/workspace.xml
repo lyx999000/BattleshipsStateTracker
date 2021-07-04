@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67407231-2e35-4032-98cf-d85099bb1276" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BattleshipsStateTracker/GameObjects/Enums/CellType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BattleshipsStateTracker/GameObjects/GameBoards/BoardCell.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BattleshipsStateTracker/GameObjects/GameBoards/Coordinates.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BattleshipsStateTracker/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BattleshipsStateTracker/.idea/contentModel.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +31,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BattleshipsStateTracker/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/BattleshipsStateTracker/GameObjects/GameBoards/Coordinates.cs" />
-        <option value="$PROJECT_DIR$/BattleshipsStateTracker/GameObjects/GameBoards/BoardCell.cs" />
         <option value="$PROJECT_DIR$/BattleshipsStateTracker/GameObjects/Enums/CellType.cs" />
+        <option value="$PROJECT_DIR$/BattleshipsStateTracker/GameObjects/GameBoards/BoardCell.cs" />
+        <option value="$PROJECT_DIR$/BattleshipsStateTracker/GameObjects/BattleShips/Ships.cs" />
       </list>
     </option>
   </component>
@@ -62,8 +65,16 @@
       <option name="presentableId" value="Default" />
       <updated>1625369278618</updated>
       <workItem from="1625369284111" duration="43000" />
-      <workItem from="1625369371350" duration="2232000" />
+      <workItem from="1625369371350" duration="2526000" />
     </task>
+    <task id="LOCAL-00001" summary="wip">
+      <created>1625374987638</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625374987638</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,5 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip" />
   </component>
 </project>
