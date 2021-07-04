@@ -26,8 +26,9 @@ namespace BattleshipsStateTracker.GameObjects.Players
     public Board Board { get; set; }
     public List<Ships> Ships { get; set; }
     public bool IsLost => Ships.All(x => x.IsSunk);
-
-    public bool AddShip(Ships ship, Coordinates coordinates, ShipOrientation shipOrientation)
+    
+    //Place ship on the board
+    public  bool AddShip(Ships ship, Coordinates coordinates, ShipOrientation shipOrientation)
     {
       var startRow = coordinates.Row;
       var startCol = coordinates.Col;
@@ -60,12 +61,15 @@ namespace BattleshipsStateTracker.GameObjects.Players
 
       return true;
     }
+    
+    // Return shot coordinates
     public Coordinates Shot(int x, int y)
     {
       return new Coordinates(x, y);
     }
 
-    public ShotResult GetShotResult(Coordinates coordinates)
+    // Return Hit or Miss when this player is attached at certain coordinates
+    public  ShotResult GetShotResult(Coordinates coordinates)
     {
       var cell = Board.BoardCells.First(x => x.Coordinates.Row == coordinates.Row && x.Coordinates.Col == coordinates.Col);
       if (!cell.IsOccupied)
